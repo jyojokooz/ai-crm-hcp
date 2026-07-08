@@ -1,0 +1,22 @@
+# Python Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment Variables (CRITICAL: Secures your API Keys)
+.env
+
+# Node/React
+node_modules/
+dist/
+.vite/
+*.log
+
+# OS Files
+.DS_Store
+.env
+
+.env
+project_summary.txt
+collect_code.py
