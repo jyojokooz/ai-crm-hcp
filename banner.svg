@@ -1,0 +1,69 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#132043"/>
+      <stop offset="100%" stop-color="#1e2f5c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- subtle grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+
+  <!-- decorative node/graph motif suggesting AI + data flow -->
+  <g stroke="url(#accent)" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M 860 230 C 920 190, 960 160, 1040 140" />
+    <path d="M 1040 140 C 1080 130, 1100 100, 1140 70" />
+    <path d="M 1040 140 C 1070 160, 1090 190, 1120 210" />
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="860" cy="230" r="5"/>
+    <circle cx="1040" cy="140" r="6"/>
+    <circle cx="1140" cy="70" r="5"/>
+    <circle cx="1120" cy="210" r="5"/>
+  </g>
+  <g fill="#818cf8">
+    <circle cx="960" cy="185" r="4"/>
+    <circle cx="1085" cy="115" r="4"/>
+  </g>
+
+  <!-- left accent bar -->
+  <rect x="0" y="0" width="8" height="300" fill="url(#accent)"/>
+
+  <!-- eyebrow -->
+  <text x="70" y="95" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" letter-spacing="4" fill="#38bdf8" font-weight="600">
+    LIFE SCIENCE FIELD ENABLEMENT
+  </text>
+
+  <!-- title -->
+  <text x="68" y="160" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" fill="#f8fafc" font-weight="700">
+    AI-First CRM
+  </text>
+  <text x="68" y="205" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#cbd5e1" font-weight="400">
+    HCP Interaction Logger
+  </text>
+
+  <!-- subtitle / tagline -->
+  <text x="70" y="248" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#94a3b8" font-weight="400">
+    Conversational logging for field representatives — powered by LangGraph &amp; Groq
+  </text>
+
+  <!-- bottom divider -->
+  <rect x="70" y="266" width="120" height="3" rx="1.5" fill="url(#accent)"/>
+</svg>
